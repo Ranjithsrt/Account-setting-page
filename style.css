@@ -1,0 +1,354 @@
+body {
+
+  padding: 0;
+  width: 80%;
+  height: 1000px;
+  margin: 0 auto;
+  background-color: #60646b;
+  position: relative;
+
+}
+
+
+
+#bg-white {
+
+  background-color: white;
+  margin-top: 50px;
+  margin-left: 50px;
+  border-radius: 30px;
+  margin-bottom: 0;
+
+}
+
+
+
+
+#Pazzler {
+
+  width: 30%;
+  height: 100vh;
+  color: rgb(212, 19, 19);
+  padding: 5px;
+  border-radius: 30px 0 0 30px;
+  margin-top: 100px;
+
+}
+
+#Pazzler h2 {
+
+
+  position: relative;
+  left: 100px;
+  padding: 5px;
+
+}
+
+#Pazzler img {
+
+
+  width: 16px;
+  padding-right: 10px;
+  object-fit: cover;
+
+}
+
+
+
+#Pazzler h2 {
+
+  font-size: 21px;
+
+}
+
+
+
+#Pazzler a {
+
+  color: black;
+  text-decoration: none;
+
+}
+
+
+
+#Pazzler a:hover {
+
+
+   color: red; */
+  opacity: 0.5;
+  /* transition: 1s; */
+  cursor: pointer;
+
+
+}
+
+
+
+#Pazzler a:active {
+
+  color: rgb(27, 210, 55);
+
+}
+
+
+
+#dropdown {
+
+
+  margin-left: 90px;
+  padding: 5px;
+  color: rgb(54, 7, 99);
+  margin-bottom: 5px;
+  margin-top: 5px;
+  background-color: white;
+  padding: 10px;
+  box-shadow: #e7f3ff;
+  border-color: #e7f3ff;
+
+
+}
+
+
+
+#dropdown:hover {
+
+  border: 1 px solid blue;
+  box-shadow: #e7f3ff;
+
+}
+
+#search-bar {
+
+
+  position: absolute;
+  top: 0;
+  left: 500px;
+  background-color: aliceblue;
+  width: 675px;
+  height: 100px;
+  border-radius: 0px 30px 0px 0px;
+  object-fit: cover;
+
+
+}
+
+
+#search-bar input {
+
+  margin-top: 30px;
+  padding: 10px;
+  width: 50vh;
+  border-radius: 10px;
+  margin-left: 20px;
+
+}
+
+
+
+#search-bar img {
+
+
+  position: relative;
+  width: 20px;
+  right: 50px;
+  top: 5px;
+
+}
+
+
+
+.profile img {
+
+
+  position: relative;
+  width: 100%;
+  width: 900px;
+  /* height: 100px; */
+  border-radius: 30px;
+  object-fit: cover;
+  margin-left: 3px;
+
+}
+
+
+.side {
+
+  display: flex;
+  display: inline-flex;
+
+
+}
+
+.subject {
+
+  display: flex;
+  /* width: 30px; */
+  flex-wrap: wrap;
+  */ justify-content: baseline;
+  align-items: baseline;
+  align-content: baseline;
+  padding: 10px;
+  /* flex-grow: 3; */
+  position: relative;
+  justify-content: flex-start;
+  display: inline-flex;
+
+}
+
+.subject input {
+
+  flex-basis: 10px;
+  justify-content: baseline;
+  align-items: baseline;
+  align-content: baseline;
+  padding: 10px;
+  flex-wrap: wrap;
+  display: inline-flex;
+ 
+}
+
+.one {
+
+  display: flex;
+  /* width: 30px; */
+  flex-wrap: wrap;
+  justify-content: baseline;
+  align-items: baseline;
+  align-content: baseline;
+  padding: 10px;
+  justify-content: flex-start;
+  display: inline-flexbox;
+
+
+}
+
+.one input {
+
+  flex-basis: 10px;
+  justify-content: baseline;
+  align-items: baseline;
+  align-content: baseline;
+  padding: 10px;
+  flex-wrap: wrap;
+
+
+
+}
+
+.two {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: baseline;
+  align-items: baseline;
+  align-content: baseline;
+  padding: 10px;
+  display: inline-flex;
+  justify-content: flex-start;
+
+
+}
+
+.three {
+
+  display: flex;
+  /* width: 30px; */
+  flex-wrap: wrap;
+  justify-content: baseline;
+  align-items: baseline;
+  align-content: baseline;
+  padding: 10px;
+  justify-content: flex-start;
+
+
+
+
+}
+
+
+.three input {
+
+  flex-basis: 10px;
+  justify-content: baseline;
+  align-items: baseline;
+  align-content: baseline;
+  padding: 10px;
+  flex-wrap: wrap;
+
+
+
+
+}
+
+
+
+
+
+#my-profile .img {
+
+  width: 100px;
+  height: 100px;
+  /* height: 800vh; */
+  object-fit: cover;
+  border-radius: 50px;
+
+
+}
+
+.subject .one {
+
+  /* position: absolute; */
+
+
+}
+
+.side,
+select,
+input:hover {
+
+
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 255, 0.785);
+  /* transition: 1s; */
+}
+
+select:hover {
+
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 255, 0.785);
+
+}
+
+input,
+select {
+
+  border: 5px solid whitesmoke;
+}
+
+input:active {
+
+  background-color: rgb(179, 187, 187);
+ 
+}
+
+select:active {
+
+  background-color: rgb(179, 187, 187);
+}
+
+/* #bg-white h2 a:hover{
+
+
+  background-color: rgba(255, 255, 255, 0.911);
+} */
+
+/* input:focus{
+
+  transform: translatez(100px);
+ }
+
+ select:focus{
+
+   
+ } */
